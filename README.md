@@ -11,7 +11,7 @@ A project site heavily inspired by bray.tech, just for Honkai: Star Rail instead
   * Redeemable Codes
   * Upcoming Dates (Banners, Events, Server Reset, etc)
     * Add a ? tooltip to clarify what the server reset actually resets
-  * A dual split selection (aka a big and fancy shortcut) to the Relic Optimizer / Relics page & the Team Builder page
+  * A dual split selection (aka a big and fancy shortcut) to the Relic Optimizer & the Team Builder
   * Misc shortcuts to other data
     * Archived data (Character data, relic sets, light cones, materials, books, lore, theorcrafting basics (eg: damage calcs and equivalents to things like guage theory when discovered) - maybe link to external resources if preferable)
     * Character Guides & Builds - link to keqingmains & link in to videos from actually reputable sources
@@ -30,11 +30,16 @@ A project site heavily inspired by bray.tech, just for Honkai: Star Rail instead
 * A way to update and maintain all this information (eg: add new relic set, add new code, add new etc without actually issuing pushes to github (or maybe with a better way of working through that)
   * Should I add something like a CMS / am I gonna end up making a small one myself?
 
+* Character data might be split into one character calculator page (where you select the character and get their calcs) and a seperate set of character lore pages, for user clarity
+
 ## Planned Features for the future
 
 Two parts of the arhcival data are not critical:
 * A set of pages on the books & lore - include text of books with filters based on location of collection & a link to ashikai's lore videos
 * Theorycrafting basics - Include an explainer on the damage calculations, on speed calculations (link to grim's spreadsheet), and on team composition & then link again to Grim, Keqingmans, and other sources for full depth explainers
+* A PWA & Mobile focused redesign as needed for such use
+* A companion mobile scanner app & computer program to scan the relics of a player in so they can optimize them
+  * Maybe we can take inspiration from artiscan.ninjabay.org but I imagine this will be a truly massive amount of work
 
 ## Frontend Design
 We're themeing the site off of the inter-astral peace corporation (the IPC) - as if this was an educational / info site hosted by the megacorporation themselves. As we lack detailed concept art or dev detailing of the IPC's style that I can find, we're gonna lean heavily onto the aesthetics of the herta space station, meaning white, black, and gold, with gold being switched out for other bright tietary colors like red, blue, and green as needed to distinguish between parts of the site (eg: maybe we could make the lore section blue, etc). Also, we'll be using the hexagon & trinary symbols within the site (maybe replicate that red trinary from the master control zone for the favicon) and generally going for a futuristic / techy style. Not too sure what we'll run for a dark mode, if we have one at launch.
